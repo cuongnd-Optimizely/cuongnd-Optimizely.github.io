@@ -1,0 +1,30 @@
+.custom-checkbox {
+	margin: 0 0 map-get($spacers, 1);
+	padding: 0 0 0 26px;
+
+	.custom-control-label {
+		font-size: 14px;
+		line-height: 24px;
+
+		&::before {
+			top: 0;
+			left: -26px;
+			width: 20px;
+			height: 20px;
+			border-radius: 0;
+			border: 1px solid $clr-grey-500;
+		}
+
+		&::after {
+			top: 0;
+			left: -26px;
+			width: 20px;
+			height: 20px;
+		}
+	}
+}
+
+.custom-radio {
+	margin: 0 0 map-get($spacers, 1);
+	padding: 0 0 0 26px;
+}
