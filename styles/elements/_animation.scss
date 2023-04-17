@@ -97,6 +97,25 @@
 	animation-duration: calc(0.25s);
 }
 
+@keyframes fadeSlideOutUp {
+	from {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+		max-height: 100px;
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(0, -50%, 0);
+		max-height: 1px;		
+	}
+}
+
+.fadeSlideOutUp {
+	animation-name: fadeSlideOutUp;
+	animation-timing-function: linear;
+}
+
 @keyframes fadeSlideInDownSmall {
 	from {
 		opacity: 0;

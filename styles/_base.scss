@@ -50,7 +50,6 @@ input::-webkit-contacts-auto-fill-button {
 	overflow-y: hidden;
 }
 
-
 @include media-breakpoint-up(sm) {
 	.embed-responsive-sm-16by9::before {
 		padding-top: 56.25%;
@@ -112,4 +111,12 @@ input::-webkit-contacts-auto-fill-button {
 		color: $clr-grey-800;
 		text-decoration: underline;
 	}
+}
+
+.d-grid {
+	display: grid;
+}
+
+.object-fit-cover {
+	object-fit: cover;
 }
