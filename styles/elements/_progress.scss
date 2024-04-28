@@ -1,0 +1,11 @@
+.progress {
+	$progres-height: 6px;
+
+	background: $clr-grey-400;
+	height: $progres-height;
+	overflow: hidden;
+
+	&-bar {
+		height: $progres-height;
+	}
+}

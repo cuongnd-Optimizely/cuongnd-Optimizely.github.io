@@ -1,0 +1,49 @@
+$clr-white: #fff;
+$clr-black: #000;
+$clr-pink: #fd8189;
+$clr-dark-pink: #d1555d;
+$clr-tinted-pink: #fff2f3;
+$clr-gold: #b68a2b;
+$clr-tinted-gold: #fff7e8;
+$clr-bright-gold: #fbe2b3;
+$clr-dark-gold: #7a550f;
+
+$clr-sale: #f00;
+$clr-success: #1f8964;
+$clr-tinted-success: #e4f4ee;
+$clr-warning: #f99d1d;
+$clr-border: #e6e5e4;
+$clr-red: #a51d21;
+$clr-error: #f00;
+$clr-okay: #0d7a53;
+$clr-dark-gold: #7a550f;
+$clr-clearance: #ee3226;
+
+$clr-grey-05: #bbbebd;
+$clr-grey-100: #fbfbfb;
+$clr-grey-200: #f7f6f6;
+$clr-grey-300: #f3f3f3;
+$clr-grey-400: #e6e5e4;
+$clr-grey-500: #ddd;
+$clr-grey-600: #9a9a9a;
+$clr-grey-700: #8a8784;
+$clr-grey-800: #565656;
+$clr-grey-900: #000;
+$clr-grey-line: #dad7d1;
+
+$colors: (
+	'black': $clr-black,
+	'pink': $clr-pink,
+	'gold': $clr-gold,
+	'sale': $clr-sale,
+	'dark-pink': $clr-dark-pink,
+	'success': $clr-success,
+	'warning': $clr-warning,
+	'grey-200': $clr-grey-200,
+	'grey-400': $clr-grey-400,
+	'grey-600': $clr-grey-600,
+	'grey-700': $clr-grey-700,
+	'grey-800': $clr-grey-800,
+	'grey-900': $clr-grey-900,
+	'grey-05': $clr-grey-05,
+);

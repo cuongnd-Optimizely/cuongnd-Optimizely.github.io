@@ -1,0 +1,23 @@
+@mixin link($color, $active-color) {
+	&,
+	&:link,
+	&:visited {
+		color: $color;
+		text-decoration: none;
+	}
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $active-color;
+		text-decoration: underline;
+	}
+}
+
+@mixin hide-scroll {
+	-ms-overflow-style: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
